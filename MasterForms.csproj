@@ -77,6 +77,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\CreateUserForm.xaml.cs">
+      <DependentUpon>CreateUserForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
     </Compile>
     <Compile Include="DataProvider.cs" />
     <Compile Include="Entities\BankUser.cs" />
+    <Page Include="Views\CreateUserForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
